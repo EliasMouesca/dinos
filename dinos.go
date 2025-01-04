@@ -33,8 +33,7 @@ func brachiosaurus(carriesGalley bool) {
 	       (|  |            |  |  \_	
 		|  |~--,_____,-~|  |_   \	
 		|  |  |       | |  | :   \__  	
-		/__|\_|       /_|__|  '-____~)	
-		`
+		/__|\_|       /_|__|  '-____~)	`
 	fmt.Print(color)
 	if carriesGalley {
 		fmt.Println(galera)
@@ -62,8 +61,7 @@ func Trex() {
                   \   \  (__       -__
                    \  \   \ :___      \__
                   _/  /  _/  /  \_       \___
-                <<<__/ <<<___/    (________=====-_
-           `
+                <<<__/ <<<___/    (________=====-_ `
 
 	fmt.Print(color)
 	fmt.Println(dino)
@@ -87,8 +85,7 @@ func Triceraptops() {
              (|  |            |  |__,,--""""´
               |  |~--,_____,-~|  |
               |  |  |       | |  | 
-              /__|\_|       /_|__| 
-           `
+              /__|\_|       /_|__| `
 
 	fmt.Print(color)
 	fmt.Println(dino)
@@ -113,9 +110,7 @@ _,-". , . , . , . , . ,\. ,\|  |/, ./, . , . , . , . , ."-,_
                         \_,/\   /\,_/    
                           \( \ / )/
                            |  V  |
-                           m     m
-
-           `
+                           m     m `
 
 	fmt.Print(color)
 	fmt.Println(dino)
