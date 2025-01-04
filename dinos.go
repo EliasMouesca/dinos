@@ -1,8 +1,16 @@
-package dino
+package dinos
 
 import "fmt"
 
-func Brachiosaurus(usaGalera bool) {
+func Brachiosaurus() {
+    brachiosaurus(false)
+}
+
+func BrachiosaurusWithGalley() {
+    brachiosaurus(true)
+}
+
+func brachiosaurus(carriesGalley bool) {
 	color := "\033[92m"
 	nocolor := "\033[0m"
 
@@ -28,7 +36,7 @@ func Brachiosaurus(usaGalera bool) {
 		/__|\_|       /_|__|  '-____~)	
 		`
 	fmt.Print(color)
-	if usaGalera {
+	if carriesGalley {
 		fmt.Println(galera)
 	}
 	fmt.Println(dino)
